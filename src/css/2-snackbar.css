@@ -1,0 +1,52 @@
+.form {
+    width: 300px;
+    border: 2px solid #8b6686;
+    padding: 20px;
+}
+
+.label-delay {
+    display: block;
+    color: #8b6686;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.label-delay input {
+    width: 300px;
+    border-radius: 4px;
+    border: 1px solid #8b6686;
+    outline: transparent;
+    font-size: 16px;
+
+    padding: 10px 16px;
+}
+
+.frame {
+    display: flex;
+    align-items: center;
+    width: 252px;
+    border-radius: 4px;
+    border: 2px solid #8b6686;
+
+    margin-bottom: 24px;
+}
+.btn-start {
+    width: 300px;
+
+    border-radius: 8px;
+    background-color: #681c5e;
+    border: transparent;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+
+
+    transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    padding: 8px 16px;
+}
+
+.btn-start:hover {
+    background-color: #44093c;
+}
