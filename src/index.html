@@ -4,13 +4,28 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HW_AJS_02_OksanaBode</title>
+    <title>Image Search</title>
+    <link rel="stylesheet" href="./css/gallery.css" />
     <link rel="stylesheet" href="./css/common.css" />
   </head>
   <body>
-    <ul class="">
-      <li><a href="./1-timer.html" class="main-btn" >Timer</a></li>
-      <li><a href="./2-snackbar.html" class="main-btn" >Snackbar</a></li>
-    </ul>
+    <section class="gallery-section">
+      <div class="container">
+        <form class="search-form js-search-form">
+          <input
+            class="search-input js-search-input"
+            type="text"
+            name="user_query"
+            placeholder="Search images..."
+            required
+          />
+          <button class="search-btn" type="submit">Search</button>
+        </form>
+        <ul class="gallery js-gallery"></ul>
+        <span class="loader is-hidden"></span>
+      </div>
+    </section>
+
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
