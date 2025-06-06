@@ -61,8 +61,8 @@
 .gallery-card {
   width: calc((100% - 48px) / 3);
   border: 1px solid #808080;
-  /*transition: transform var(--animation-duration) var(--timing-function);*/
 }
+
 .gallery-card:hover {
   transform: scale(1.03);
 }
@@ -97,17 +97,7 @@
   border-bottom-color: #4e75ff;
   border-radius: 50%;
   box-sizing: border-box;
-  /*animation: rotation 1s linear infinite;*/
 }
-
-/*@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}*/
 
 .is-hidden {
   display: none;
